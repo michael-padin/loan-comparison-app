@@ -6,8 +6,8 @@
 .pnp.js
 
 # testing
-/coverage
-
+/src/dummy.js
+/src/features/
 # production
 /build
 

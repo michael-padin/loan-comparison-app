@@ -6,7 +6,7 @@ import "./styles/global.css";
 function App() {
   return (
     <div className="App">
-      <nav className="w-full fixed h-[70px] border-b-2">
+      <nav className="w-full fixed h-[70px] border-b-2 z-20 bg-white">
         <Navbar />
       </nav>
       <section>
