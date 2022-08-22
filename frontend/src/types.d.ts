@@ -17,10 +17,12 @@ export interface IBank {
   eligibility: string[];
   interest?: number;
   pmt?: number;
+  monthlyPayment?: number;
+  costOfCredit?: number;
+  totalRepayable?: number;
+  text?: string;
 }
 
-export interface IBankCard {
+export interface IBankCard  {
   bank: IBank;
-  years: number;
-  amount: number;
 }

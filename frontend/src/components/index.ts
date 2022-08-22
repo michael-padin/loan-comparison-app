@@ -1,0 +1,5 @@
+export {default as BankCard} from "./BankCard"
+export {default as Banks} from "./Banks"
+export {default as Banner} from "./Banner"
+export {default as Navbar} from "./Navbar"
+export {default as Tables} from "./Tables"
