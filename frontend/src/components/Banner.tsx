@@ -1,15 +1,19 @@
-import React from "react";
 
-const Banner = () => {
+interface IBanner {
+  heading: string;
+  subheading: string;
+}
+
+const Banner = ({heading, subheading}: IBanner) => {
   return (
     <div className="max-w-[1140px] m-auto h-full pt-[70px]">
       <div className="flex items-center justify-center mt-[50px] h-full">
         <div className="flex flex-col h-full text-center">
           <h1 className="text-[42px] font-[900] text-[#61487a]">
-            Compare Top Loans
+           {heading}
           </h1>
           <p className="mt-[10px] text-[1.5rem] text-[#232323] ">
-            Impartial credit card comparison
+            {subheading}
           </p>
           <div className="w-full h-full flex mt-[20px]">
             <ul className="flex flex-wrap gap-4 justify-center h-full">
